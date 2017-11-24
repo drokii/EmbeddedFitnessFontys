@@ -34,3 +34,4 @@ sysinfo.txt
 *.unitypackage
 BigShot/Library/CurrentLayout.dwlt
 BigShot/Library/CurrentLayout.dwlt
+*.dwlt
