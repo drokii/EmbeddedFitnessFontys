@@ -20,7 +20,7 @@ MonoBehaviour:
   m_ShowMode: 4
   m_Title: 
   m_RootView: {fileID: 5}
-  m_MinSize: {x: 950, y: 300}
+  m_MinSize: {x: 950, y: 521}
   m_MaxSize: {x: 10000, y: 10000}
 --- !u!114 &2
 MonoBehaviour:
@@ -67,10 +67,10 @@ MonoBehaviour:
     y: 0
     width: 290
     height: 947
-  m_MinSize: {x: 234, y: 492}
-  m_MaxSize: {x: 10004, y: 14042}
+  m_MinSize: {x: 234, y: 471}
+  m_MaxSize: {x: 10004, y: 14021}
   vertical: 1
-  controlID: 27
+  controlID: 72
 --- !u!114 &4
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -89,8 +89,8 @@ MonoBehaviour:
     y: 0
     width: 290
     height: 487
-  m_MinSize: {x: 204, y: 221}
-  m_MaxSize: {x: 4004, y: 4021}
+  m_MinSize: {x: 200, y: 200}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 17}
   m_Panes:
   - {fileID: 17}
@@ -161,10 +161,10 @@ MonoBehaviour:
     y: 30
     width: 1920
     height: 947
-  m_MinSize: {x: 711, y: 492}
-  m_MaxSize: {x: 18006, y: 14042}
+  m_MinSize: {x: 711, y: 471}
+  m_MaxSize: {x: 18006, y: 14021}
   vertical: 0
-  controlID: 72
+  controlID: 71
 --- !u!114 &8
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -383,13 +383,13 @@ MonoBehaviour:
   m_StartGridSize: 64
   m_LastFolders: []
   m_LastFoldersGridSize: -1
-  m_LastProjectPath: I:\School\Semester 3\Game design\NewGraphicProject
+  m_LastProjectPath: I:\School\Semester 3\GDPT\PROJECT_GIT\EmbeddedFitnessFontys\BigShot
   m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: ee240000
     m_LastClickedID: 9454
-    m_ExpandedIDs: 
+    m_ExpandedIDs: 000000000e260000122600001e260000302600003226000042260000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -417,18 +417,18 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000322600007e2600008026000082260000a8360000cc360000
+    m_ExpandedIDs: 000000000e260000122600001e260000422600004a260000242800003228000036280000da530000687e00006a7e0000727e0000867e0000bc7e0000ce7e0000d67e0000f47e0000187f0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
-      m_Name: bubble
-      m_OriginalName: bubble
+      m_Name: Prototype
+      m_OriginalName: Prototype
       m_EditFieldRect:
         serializedVersion: 2
         x: 0
         y: 0
         width: 0
         height: 0
-      m_UserData: 14020
+      m_UserData: 48590
       m_IsWaitingForDelay: 0
       m_IsRenaming: 0
       m_OriginalEventType: 0
@@ -575,14 +575,14 @@ MonoBehaviour:
     width: 1349
     height: 926
   m_SceneLighting: 1
-  lastFramingTime: 2579.8878159928568
+  lastFramingTime: 2533.7452810707064
   m_2DMode: 0
   m_isRotationLocked: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: -0.13956249, y: 0.49217054, z: 0.8634343}
+    m_Target: {x: -3.7914255, y: 0.8153344, z: -0.7466531}
     speed: 2
-    m_Value: {x: -0.13956249, y: 0.49217054, z: 0.8634343}
+    m_Value: {x: -3.7914255, y: 0.8153344, z: -0.7466531}
   m_RenderMode: 0
   m_ValidateTrueMetals: 0
   m_SceneViewState:
@@ -605,13 +605,13 @@ MonoBehaviour:
       speed: 2
       m_Value: 0
   m_Rotation:
-    m_Target: {x: -0.004999078, y: 0.91375244, z: -0.0112482095, w: -0.40608504}
+    m_Target: {x: -0.029237712, y: 0.72198033, z: -0.030565219, w: -0.6906196}
     speed: 2
-    m_Value: {x: -0.004999078, y: 0.91375244, z: -0.0112482095, w: -0.40608504}
+    m_Value: {x: -0.029237712, y: 0.72198033, z: -0.030565219, w: -0.6906196}
   m_Size:
-    m_Target: 1.8789003
+    m_Target: 7.4775877
     speed: 2
-    m_Value: 1.8789003
+    m_Value: 7.4775877
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -652,7 +652,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: daa4fdff9cb3fdff5eb7fffff8b8ffffc0baffff88bcffff6cfbffff00000000
+    m_ExpandedIDs: e80cfaffa6deffffc4e4ffffc6e4ffff0ce6ffffb4ebffff3ef2ffff1afcffff00000000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -671,7 +671,7 @@ MonoBehaviour:
       m_ClientGUIView: {fileID: 4}
     m_SearchString: 
   m_ExpandedScenes:
-  - Fishie
+  - Prototype
   m_CurrenRootInstanceID: 0
   m_Locked: 0
   m_CurrentSortingName: TransformSorting
