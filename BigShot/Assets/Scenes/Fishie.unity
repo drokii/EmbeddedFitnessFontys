@@ -213,6 +213,8 @@ GameObject:
   - component: {fileID: 41583926}
   - component: {fileID: 41583925}
   - component: {fileID: 41583924}
+  - component: {fileID: 41583927}
+  - component: {fileID: 41583928}
   m_Layer: 0
   m_Name: Button2 (2)
   m_TagString: Untagged
@@ -313,6 +315,32 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 41583922}
+--- !u!114 &41583927
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 41583922}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6b9297dfb6a4f314b961d4522ab65476, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!58 &41583928
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 41583922}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  serializedVersion: 2
+  m_Radius: 50
 --- !u!1 &62257139
 GameObject:
   m_ObjectHideFlags: 0
@@ -1430,6 +1458,8 @@ GameObject:
   - component: {fileID: 841361280}
   - component: {fileID: 841361279}
   - component: {fileID: 841361278}
+  - component: {fileID: 841361281}
+  - component: {fileID: 841361282}
   m_Layer: 0
   m_Name: Button2 (3)
   m_TagString: Untagged
@@ -1530,6 +1560,32 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 841361276}
+--- !u!114 &841361281
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 841361276}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6b9297dfb6a4f314b961d4522ab65476, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!58 &841361282
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 841361276}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  serializedVersion: 2
+  m_Radius: 50
 --- !u!1 &847378202
 GameObject:
   m_ObjectHideFlags: 0
@@ -1627,6 +1683,8 @@ GameObject:
   - component: {fileID: 951216095}
   - component: {fileID: 951216094}
   - component: {fileID: 951216093}
+  - component: {fileID: 951216096}
+  - component: {fileID: 951216097}
   m_Layer: 0
   m_Name: Button2 (1)
   m_TagString: Untagged
@@ -1727,6 +1785,32 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 951216091}
+--- !u!114 &951216096
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 951216091}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6b9297dfb6a4f314b961d4522ab65476, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!58 &951216097
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 951216091}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  serializedVersion: 2
+  m_Radius: 50
 --- !u!1 &958525879
 GameObject:
   m_ObjectHideFlags: 0
@@ -2309,6 +2393,8 @@ GameObject:
   - component: {fileID: 1337647483}
   - component: {fileID: 1337647482}
   - component: {fileID: 1337647481}
+  - component: {fileID: 1337647484}
+  - component: {fileID: 1337647485}
   m_Layer: 0
   m_Name: Button2 (5)
   m_TagString: Untagged
@@ -2409,6 +2495,32 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1337647479}
+--- !u!114 &1337647484
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1337647479}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6b9297dfb6a4f314b961d4522ab65476, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!58 &1337647485
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1337647479}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  serializedVersion: 2
+  m_Radius: 50
 --- !u!1 &1365996540
 GameObject:
   m_ObjectHideFlags: 0
@@ -2507,6 +2619,8 @@ GameObject:
   - component: {fileID: 1459698434}
   - component: {fileID: 1459698433}
   - component: {fileID: 1459698432}
+  - component: {fileID: 1459698435}
+  - component: {fileID: 1459698436}
   m_Layer: 0
   m_Name: Button2 (4)
   m_TagString: Untagged
@@ -2607,6 +2721,32 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1459698430}
+--- !u!114 &1459698435
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1459698430}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6b9297dfb6a4f314b961d4522ab65476, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!58 &1459698436
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1459698430}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  serializedVersion: 2
+  m_Radius: 50
 --- !u!1 &1504426389
 GameObject:
   m_ObjectHideFlags: 0
@@ -2704,6 +2844,8 @@ GameObject:
   - component: {fileID: 1653436597}
   - component: {fileID: 1653436596}
   - component: {fileID: 1653436595}
+  - component: {fileID: 1653436598}
+  - component: {fileID: 1653436599}
   m_Layer: 0
   m_Name: Button2
   m_TagString: Untagged
@@ -2804,6 +2946,32 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1653436593}
+--- !u!114 &1653436598
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1653436593}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6b9297dfb6a4f314b961d4522ab65476, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!58 &1653436599
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1653436593}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  serializedVersion: 2
+  m_Radius: 50
 --- !u!1001 &1661225423
 Prefab:
   m_ObjectHideFlags: 0
