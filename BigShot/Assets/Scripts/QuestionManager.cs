@@ -9,6 +9,7 @@ public class QuestionManager : MonoBehaviour
 {
     public static Question CurrentQuestion;
     private List<Question> _questionList;
+    private static int totalGoodAnswers = 0, goodAnswered = 0; 
 
     void Start()
     {      
@@ -19,8 +20,29 @@ public class QuestionManager : MonoBehaviour
         FillUIwithQuestion();
     }
 
+    private void Update()
+    {
+        Transform t = transform.Find("Answers");
+
+        goodAnswered = 0;
+        foreach (Transform child in t)
+        {
+            if (QuestionManager.CurrentQuestion.Answers[child.Find("Text").gameObject.GetComponent<Text>().text] && !child.gameObject.activeSelf)
+            {
+                goodAnswered++;
+            }
+        }
+
+        if (goodAnswered == totalGoodAnswers)
+        {
+            nextQuestion();
+        }
+    }
+
     void nextQuestion()
     {
+        goodAnswered = 0;
+        totalGoodAnswers = 0;
         gameObject.SetActive(true);
         CurrentQuestion = _questionList[_questionList.IndexOf(CurrentQuestion) + 1];
         FillUIwithQuestion();
@@ -40,8 +62,15 @@ public class QuestionManager : MonoBehaviour
         //Populate all buttons with answers. Buttons are gotten from the children of Canvas. 15 answers for 15 buttons.
         foreach (Transform child in t)
         {
+            child.gameObject.SetActive(true);
             child.Find("Text").gameObject.GetComponent<Text>().text = allAnswers[indexOfQuestion];
-            indexOfQuestion++;            
+            if (QuestionManager.CurrentQuestion.Answers[allAnswers[indexOfQuestion]])
+            {
+                totalGoodAnswers++;
+            }
+            indexOfQuestion++;        
+            
+            
         }
 
     }

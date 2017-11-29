@@ -22,7 +22,8 @@ public class AnswerButton : MonoBehaviour
         _questionText = _btn.transform.Find("Text").gameObject.GetComponent<Text>().text;
         if (QuestionManager.CurrentQuestion.Answers[_questionText])
         {
-            GameObject.Find("Canvas").SetActive(false);
+            //GameObject.Find("Canvas").SetActive(false);
+            gameObject.SetActive(false);
         }
     }
 }
