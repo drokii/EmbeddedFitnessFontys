@@ -1,0 +1,32 @@
+﻿What is the result of 3+6?
+2+4|true
+1+5|true
+12/2|true
+24/6|true
+48/6|true
+3+4|false
+2+2|false
+10-5|false
+8-3|false
+4+4|false
+10/3|false
+5-1|false
+6-3|false
+10-3|false
+100-93|false
+What animals live in the water?
+Dolphin|true
+Fish|true
+Frog|true
+Whale|true
+Jellyfish|true
+Dog|false
+Cat|false
+Tree|false
+Enzoknol|false
+Wolf|false
+Lion|false
+Snail|false
+Eagle|false
+Bear|false
+Worm|false
