@@ -89,7 +89,12 @@ public class BubbleBounce : MonoBehaviour {
     
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        if (collision.transform.position.x > transform.position.x)
+        if (collision.gameObject.CompareTag("Question"))
+        {
+            movingDown = true;
+            movingUp = false;
+        }
+        else if (collision.transform.position.x > transform.position.x)
         {
             movingLeft = true; movingRight = false;
         }
