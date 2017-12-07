@@ -1062,10 +1062,8 @@ Transform:
   m_Father: {fileID: 62257140}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-<<<<<<< HEAD
 --- !u!1 &361207221
 GameObject:
-=======
 --- !u!1 &381242691 stripped
 GameObject:
   m_PrefabParentObject: {fileID: 100056, guid: ea611b820be4f3b45b5796f4a126cf23, type: 3}
@@ -1087,7 +1085,6 @@ MonoBehaviour:
   maximumSwimingTime: 100
 --- !u!1001 &381863491
 Prefab:
->>>>>>> 729d013e96f226b10937464b77df1bbaf0783301
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
